@@ -1,0 +1,329 @@
+{
+  "balance" : 5625,
+  "visitors" : [ {
+    "@class" : "MovingEntity.Visitor",
+    "coordinate" : {
+      "x" : 883.0,
+      "y" : 2227.0
+    },
+    "price" : 500,
+    "direction" : "down",
+    "speed" : 1,
+    "time" : 36,
+    "activeAtNight" : false,
+    "personSizeScale" : 10,
+    "inJeep" : false
+  }, {
+    "@class" : "MovingEntity.Visitor",
+    "coordinate" : {
+      "x" : 1263.0,
+      "y" : 2176.0
+    },
+    "price" : 505,
+    "direction" : "left",
+    "speed" : 1,
+    "time" : 44,
+    "activeAtNight" : false,
+    "personSizeScale" : 10,
+    "inJeep" : false
+  }, {
+    "@class" : "MovingEntity.Visitor",
+    "coordinate" : {
+      "x" : 1420.0,
+      "y" : 2279.0
+    },
+    "price" : 520,
+    "direction" : "up",
+    "speed" : 1,
+    "time" : 53,
+    "activeAtNight" : false,
+    "personSizeScale" : 10,
+    "inJeep" : false
+  } ],
+  "jeeps" : [ ],
+  "animals" : [ {
+    "type" : "Giraffe",
+    "coordinate" : {
+      "x" : 650.0,
+      "y" : 2173.0
+    },
+    "price" : 100,
+    "direction" : "right",
+    "actionLockCounter" : 40,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 43,
+    "waterSupply" : 87,
+    "foodSources" : [ {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 960.0,
+        "y" : 2064.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 624.0,
+        "y" : 2256.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 480.0,
+        "y" : 2112.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "drinkSources" : [ {
+      "@class" : "Items.Lake",
+      "id" : 2,
+      "price" : 400,
+      "coordinate" : {
+        "x" : 720.0,
+        "y" : 2064.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Lake",
+      "id" : 2,
+      "price" : 400,
+      "coordinate" : {
+        "x" : 432.0,
+        "y" : 2160.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "range" : 50,
+    "id" : 101,
+    "canGo" : false,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  }, {
+    "type" : "Giraffe",
+    "coordinate" : {
+      "x" : 792.0,
+      "y" : 2299.0
+    },
+    "price" : 100,
+    "direction" : "left",
+    "actionLockCounter" : 80,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 44,
+    "waterSupply" : 44,
+    "foodSources" : [ {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 960.0,
+        "y" : 2064.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 816.0,
+        "y" : 2112.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "drinkSources" : [ ],
+    "range" : 50,
+    "id" : 101,
+    "canGo" : true,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  }, {
+    "type" : "Giraffe",
+    "coordinate" : {
+      "x" : 514.0,
+      "y" : 2178.0
+    },
+    "price" : 100,
+    "direction" : "down",
+    "actionLockCounter" : 74,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 45,
+    "waterSupply" : 99,
+    "foodSources" : [ {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 960.0,
+        "y" : 2064.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 912.0,
+        "y" : 1920.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 816.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 816.0,
+        "y" : 2112.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 624.0,
+        "y" : 2256.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 480.0,
+        "y" : 2112.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 432.0,
+        "y" : 2256.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "drinkSources" : [ {
+      "@class" : "Items.Lake",
+      "id" : 2,
+      "price" : 400,
+      "coordinate" : {
+        "x" : 432.0,
+        "y" : 2160.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "range" : 50,
+    "id" : 101,
+    "canGo" : false,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  }, {
+    "type" : "Lion",
+    "coordinate" : {
+      "x" : 1818.0,
+      "y" : 1686.0
+    },
+    "price" : 300,
+    "direction" : "down",
+    "actionLockCounter" : 67,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 47,
+    "waterSupply" : 47,
+    "foodSources" : [ ],
+    "drinkSources" : [ ],
+    "range" : 50,
+    "id" : 104,
+    "canGo" : false,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  }, {
+    "type" : "Lion",
+    "coordinate" : {
+      "x" : 1469.0,
+      "y" : 1636.0
+    },
+    "price" : 300,
+    "direction" : "right",
+    "actionLockCounter" : 80,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 48,
+    "waterSupply" : 48,
+    "foodSources" : [ ],
+    "drinkSources" : [ ],
+    "range" : 50,
+    "id" : 104,
+    "canGo" : true,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  } ],
+  "rangers" : [ ],
+  "poacher" : null,
+  "roadPath" : [ {
+    "x" : 48.0,
+    "y" : 19.0
+  } ],
+  "lastRoad" : {
+    "x" : 48.0,
+    "y" : 19.0
+  },
+  "endRoad" : {
+    "x" : 48.0,
+    "y" : 29.0
+  }
+}

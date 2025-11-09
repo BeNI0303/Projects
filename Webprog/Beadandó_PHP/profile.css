@@ -1,0 +1,130 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    background-color: #252525;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffc700;
+}
+
+.reg{
+    display: block;
+    margin: 0 0.5rem;
+    padding:0.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffcd00;
+    color: #000;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 3rem;
+    padding: 1.1rem;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.1rem;
+}
+.profile img {
+    border-radius: 1rem;
+    width: 20%;
+    height: auto;
+    margin-right: 20px;
+}
+.profile-info {
+    font-size: 24px;
+}
+
+#profilep{
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 4rem;
+    width: 100%;
+    text-decoration: none;
+}
+
+#profile{
+    width: 10%;
+}
+
+#profilenav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout{
+    display: block;
+    margin: 0;
+    padding:0.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffcd00;
+    color: #000;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.price{
+    text-align: center;
+    height:3vh;
+}
+
+.card{
+    margin-bottom: 1rem;
+}
+
+.card-body{
+    background-color: #42404F;
+}
+
+.detail{
+    text-align: left;
+    margin: 0;
+}
+
+.cprice{
+    position: absolute; 
+    top: 50%; 
+    right: 0%;
+    color: #fff; 
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: calc(12px + 1vw);
+    font-weight: bold; 
+}
+
+.carPics{
+    height: 20vh;
+}
+
+.delete{
+    background-color: red;
+    position: absolute;
+    color: #fff; 
+    top: 2%;
+    left: 2%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold; 
+    text-decoration: none;
+}

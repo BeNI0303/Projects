@@ -1,0 +1,352 @@
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    background-color: #252525;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.login{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffc700;
+}
+
+.reg{
+    display: block;
+    margin: 0 0.5rem;
+    padding:0.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffcd00;
+    color: #000;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.container{
+    max-width: 98%;
+    padding: 1rem 0.5rem;
+
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+#seats, #date-start, #date-end, #gearbox, #price, .control, .price,#fuel_type{
+    background-color: #1a1a1a;
+    border: 0.1rem grey solid;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+#seats::placeholder, #date-start::placeholder, #date-end::placeholder, #gearbox::placeholder, #price::placeholder{
+    color: grey;
+}
+
+
+#seats{
+    height: 5vh;
+    text-align: center;
+    width: 3rem;
+}
+
+.buttons, .seatNum{
+    width: 10%;
+}
+
+.control{
+    width: 100%;
+    height: 5vh;
+}
+
+.date{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.datein{
+    margin: auto;
+}
+
+.sor2{
+    margin-top: 1rem;
+}
+
+.price{
+    text-align: center;
+    height:3vh;
+}
+
+.card{
+    margin-bottom: 1rem;
+}
+
+.card-body{
+    background-color: #42404F;
+}
+
+.detail{
+    text-align: left;
+    margin: 0;
+}
+
+.cprice{
+    position: absolute;
+    top: 50%; 
+    right: 0%;
+    color: #fff; 
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: calc(12px + 1vw);
+    font-weight: bold; 
+}
+
+.btn-warning{
+    border-radius: 1.2rem;
+}
+
+#pic{
+    width: 100%;
+    height: 70vh;
+    border-radius: 2rem;
+}
+
+.name{
+    font-size: 4rem;
+    text-align: right;
+}
+
+.data{
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #2C2C2C;
+    margin-bottom: 0.7rem;
+}
+
+#dateSelect{
+    width: 70%;
+    display: block;
+    margin: 0 0.5rem;
+    padding:0.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #4C6087;
+    color: #000;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+#rent{
+    display: block;
+    margin: 0 0.5rem;
+    padding:0.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #FDC43D;
+    color: #000;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.nopadding{
+    padding: 0;
+    margin: 0;
+}
+
+.info{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.infocell{
+    padding: 0 ;
+}
+
+.dayPrice{
+    padding-top: 5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.notBold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+.carPics{
+    height: 20vh;
+}
+
+.plus{
+    border: none;
+    height: 25vh;
+    background-color: #1a1a1a;
+    background: none;
+}
+
+#brand, #model, #year, #passengers, #daily_price_huf, #image, #dateStart, #dateEnd{
+    background-color: #1a1a1a;
+    border: 0.1rem grey solid;
+    border-radius: 1rem;
+    color: #fff;
+    width: 100%;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#brand::placeholder, #model::placeholder, #year::placeholder, #passengers::placeholder, #daily_price_huf::placeholder, #image::placeholder{
+    color: grey;
+}
+
+#addform{
+    padding: 1rem;
+    margin: auto;
+    width: 50%;
+}
+
+.err{
+    color: red;
+}
+
+#success{
+    text-align: center;
+    margin: auto;
+    color: green;
+    font-size: 2rem;
+}
+
+#profilep{
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 4rem;
+    width: 100%;
+    text-decoration: none;
+}
+
+#profile{
+    width: 10%;
+}
+
+#profilenav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete{
+    background-color: red;
+    position: absolute;
+    color: #fff; 
+    top: 2%;
+    left: 2%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+.edit{
+    background-color: white;
+    position: absolute;
+    color: black; 
+    top: 2%;
+    right: 2%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+.logout{
+    display: block;
+    margin: 0;
+    margin-right: 0.5rem;
+    padding:0.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffcd00;
+    color: #000;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+#save{
+    display: block;
+    margin: 0 0.5rem;
+    padding:0.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #FDC43D;
+    color: #000;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-size: 1.5rem; 
+}
+
+.iconSucc{
+    font-size: 6.5rem;
+    color: #fbbc05;
+}
+
+.title {
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.message {
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.button {
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    background-color: #fbbc05;
+    border: none;
+    border-radius: 0.5rem;
+    color: #000;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #e0a800;
+}
+
+.success, .error{
+    padding-top: 7rem;
+}
+
+.iconErr{
+    font-size: 6.5rem;
+    color: red;
+}

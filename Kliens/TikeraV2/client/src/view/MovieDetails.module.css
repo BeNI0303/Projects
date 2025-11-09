@@ -1,0 +1,98 @@
+.root{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 1rem;
+}
+
+.desctription{
+    width: 75%;
+}
+
+.desctription h2{
+    text-align: left;
+}
+
+.desctription p{
+    font-size: 1.2rem;
+    color: var(--text);
+    text-align: left;
+}
+
+.bolder{
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.7rem;
+    box-shadow:
+    0px 0px darkslategray,
+    0em 0 1em darkslategray;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+}
+
+.img{
+    padding-left: 3rem;
+    rotate: -10deg;
+    width: 25%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: var(--text); 
+    border: 1px var(--text) solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover{
+    border: none;
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.ticketselector{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.tickets{
+    width: 50%;
+}
+
+.seats{
+    width: 90%;
+}
+
+@media (max-width: 768px) { 
+    .ticketselector {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tickets, .seats {
+        width: 100%;
+    }
+
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+}

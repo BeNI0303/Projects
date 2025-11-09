@@ -1,0 +1,239 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    width: 100%;
+    background-image: url("./kiindulo_hun/pics/screens/bg.png");
+    background-size: 85%;
+}
+
+.container{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    max-width: 100%;
+}
+
+hr{
+    margin: auto;
+    border-top: 0.1rem solid #D4B777;
+    border-bottom: 0.1rem solid #D4B777;
+    width: 90%;
+    color: #D4B777;
+}
+
+
+
+#menu{
+    display: contents;
+}
+
+#cim, #main{
+    margin: auto;
+    width: 70%;
+}
+
+#name{
+    font-size: 2rem;
+    padding: 1.3rem;
+    width: 100%;
+    color: #D4B777;
+    border: #D4B777 0.3rem solid;
+    border-radius: 1rem;
+    margin: 1.5rem 0;
+}
+
+::placeholder{
+    color: #D4B777;
+}
+
+#nehezseg{
+    margin: 0 1rem;
+    padding: 0 1rem;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    color: #B4BFA3;
+    border: #B4BFA3 0.3rem solid;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+#nehezseg p {
+text-align: center;
+}
+
+.easy, .hard{
+    font-size: 3rem;
+    width: 100%;
+    height: 10vh;
+    border: #B4BFA3 0.3rem solid;
+    border-radius: 1rem;
+    color: #B4BFA3;
+    background-color: white;
+}
+
+.activeb{
+    background-color: #EAEFD3;
+    color: #505168;
+}
+
+#leir{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 10vh;
+    border: #B4BFA3 0.3rem solid;
+    border-radius: 1rem;
+    background-color: #EAEFD3;
+    color: #505168;
+}
+
+#indit{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 10vh;
+    border: #908E95 0.3rem solid;
+    border-radius: 1rem;
+    background-color: #A4A5AC;
+    color: white;
+}
+
+
+
+#customModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 0.2rem solid #ccc;
+    border-radius: 1rem;
+    z-index: 1000;
+    display: none;
+}
+
+
+
+#leiras{
+    display: none;
+}
+
+#data{
+    padding: 3rem;
+}
+
+#back{
+    font-size: 1.5rem;
+    height: 10vh;
+    border: #908E95 0.3rem solid;
+    border-radius: 1rem;
+    background-color: #A4A5AC;
+    color: white;
+}
+
+#leiras p {
+    color: #505168;
+}
+
+#leiras h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+#leiras img{
+    border: 0.1rem black solid;
+}
+
+
+
+#jatek{
+    display: none;
+}
+
+#gamesor{
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+#cimj{
+    width: 100%;
+}
+
+#adatok{
+    text-align: center;
+    background-color: white;
+    font-size: 2rem;
+    color: #505168;
+    padding: 1rem;
+    border: #D4B777 solid 0.3rem;
+    border-radius: 2rem;
+}
+
+#nev, #time{
+    color: #28233A;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+#game{
+    width: 100vh;
+    height: 90vh;
+    border: #907651 solid 0.8rem;
+    border-radius: 1rem;
+}
+
+#adatok p{
+    margin: 0;
+    padding: 0;
+}
+
+#game tr, #game td{
+    background-size: 100%;
+    width: 20%;
+}
+
+#vege-kepernyo{
+    padding-bottom: 1rem;
+    display: none;
+    position: absolute;
+    top: 35vh;
+    left: 45vw;
+    width: 20rem;
+    text-align: center;
+    border: #D4B777 solid 0.3rem;
+    border-radius: 2rem;
+    background-color: #ffff;
+}
+
+#jatekvege{
+    font-size: 2rem;
+    color: #505168;
+}
+
+#vissza{
+    font-size: 1.5rem;
+    border: #908E95 0.3rem solid;
+    border-radius: 1rem;
+    background-color: #A4A5AC;
+    color: white;
+}
+
+#toplista{
+    list-style-type: none;
+}
+
+#top{
+    font-size: 2rem;
+    color: #505168;
+}
+
+
+
+#rail{
+    width: 100%;
+}
+
+#footer, #footerpics{
+    width: 100%;
+}

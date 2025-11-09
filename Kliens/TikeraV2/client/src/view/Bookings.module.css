@@ -1,0 +1,66 @@
+.container{
+  color: var(--text);
+}
+
+.bookingSummary {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; 
+    border-radius: 2rem;
+    color: var(--text);
+    width: 90%;
+    font-family: Arial, sans-serif;
+    min-width: 320px;
+    max-width: 35rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 1rem;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    transition: box-shadow 0.2s;
+  }
+
+  .movieDeatils{
+    width: 20rem;
+    padding: 0 1rem;
+    text-align: left;
+  }
+
+  .title{
+    text-align: left;
+    color: var(--text);
+  }
+
+  .hr{
+    border: 0.01rem solid grey;
+  }
+
+.image{
+    margin-left: 1rem;
+    width: 10rem;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    rotate: -10deg;
+}
+
+.imagepast{
+    margin-left: 1rem;
+    width: 10rem;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    rotate: -10deg;
+    filter: grayscale(100%);
+}
+  
+.horizontalScrollList {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+}

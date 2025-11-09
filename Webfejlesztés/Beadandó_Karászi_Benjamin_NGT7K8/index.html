@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/print.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="./JS/script.js"></script>
+    <title>Muay Thai világa - Kezdőlap</title>
+</head>
+<body>
+    <header>
+        <nav class="rejtett">
+            <a href="#index">Navbar kihagyása</a>
+        </nav>
+        <nav class="navbar  navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto mt-2">
+                        <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Kezdőlap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./HTML/tortenet.html">Története</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./HTML/technikak.html">Technikák</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./HTML/kapcsolat.html">Kapcsolat</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-check form-switch">
+                    <label class="form-check-label" for="gyengenlato">Gyengénlátó</label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="gyengenlato" onclick="check()">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="index">
+        <div class="with-blur-backdrop index">
+            <div class="container">
+                <section>
+                    <div class="row">
+                        <div class="col-sm text-center">
+                            <h1>Muay Thai Világa (Kezdőlap)</h1> 
+                            <h2>Fedezze fel a Muay Thai sokszínűségét</h2> 
+                            <p>Üdvözöljük oldalunkon. Ez az oldal segít betekintést nyerni egy csodás küzdősport világába.</p> 
+                            <h2>Röviden a Muay Thairól </h2>
+                            <p>Thai box vagy eredeti nevén <b><cite>Muay Thai</cite></b>. Egy <b><cite>Thaiföldről származó</cite></b> pusztakezes harcművészet. A thai boxot a 
+                                <b><cite>“nyolc” végtag tudományának</cite></b> is nevezik. Világszerte több szervezet is rendez világbajnokságokat különböző 
+                                súlycsoportban, és nemi kategóriában.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="row">
+                        <div id="carouselExample" class="carousel slide text-center">
+                            <h6>Kép slideshow</h6>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./IMG/MuayThai1.jpg" class="d-block w-100" alt="A képen egy rajzolt Muay Thai-t gyakorló ember látható">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./IMG/MuayThai2.jpg" class="d-block w-100" alt="A képen két verseny keretein belül harcoló úr látható Thaiföldről">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./IMG/MuayThai3.jpg" class="d-block w-100" alt="A képen egy logó látható mellyen egy körbe egy harcos látható körülötte Muay Thai Fighter felirattal">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav class="rejtett">
+            <a href="#endfooter">Footer kihagyása</a>
+        </nav>
+        <div class="with-blur-backdrop">
+            <div class="container">
+                <div class="row contact">
+                    <div class="col-sm text-center">
+                        <p>Készítette: Karászi Benjámin József NGT7K8</p>
+                    </div>
+                    <div class="col-sm text-center">
+                        <p>Email: kitalaltemail@gmail.com</p>
+                    </div>
+                    <div class="col-sm text-center">
+                        <p>Tel: 06 99 999 9999</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="endfooter" class="rejtett">Footer kihagyva</p>
+    </footer>
+</body>
+</html>

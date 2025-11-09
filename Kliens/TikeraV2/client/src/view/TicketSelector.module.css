@@ -1,0 +1,16 @@
+.ticketcontainer {
+  color: var(--text);
+    font-family: Arial, sans-serif;
+  }
+  
+  .tickettypes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .ticket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

@@ -1,0 +1,43 @@
+.bookingSummary {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; 
+    border-radius: 2rem;
+    color: var(--text);
+    width: 90%;
+    font-family: Arial, sans-serif;
+  }
+
+  .movieDeatils{
+    padding: 0 1rem;
+    text-align: left;
+  }
+
+  .title{
+    color: var(--text);
+  }
+
+  .hr{
+    border: 0.01rem solid grey;
+  }
+  
+  .finalizeButton {
+    background-color: rgb(132, 203, 21);
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .button{
+    margin: auto;
+  }
+  
+  .finalizeButton:hover {
+    background-color: #27ae60;
+  }
+  

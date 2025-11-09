@@ -1,0 +1,1638 @@
+{
+  "balance" : 5520,
+  "rating" : 1.1900000000000002,
+  "visitors" : [ {
+    "@class" : "MovingEntity.Visitor",
+    "coordinate" : {
+      "x" : 1302.0,
+      "y" : 2079.0
+    },
+    "price" : 500,
+    "direction" : "down",
+    "speed" : 1,
+    "time" : 37,
+    "activeAtNight" : false,
+    "personSizeScale" : 10,
+    "inJeep" : false
+  }, {
+    "@class" : "MovingEntity.Visitor",
+    "coordinate" : {
+      "x" : 885.0,
+      "y" : 2168.0
+    },
+    "price" : 525,
+    "direction" : "right",
+    "speed" : 1,
+    "time" : 46,
+    "activeAtNight" : false,
+    "personSizeScale" : 10,
+    "inJeep" : false
+  }, {
+    "@class" : "MovingEntity.Visitor",
+    "coordinate" : {
+      "x" : 1061.0,
+      "y" : 2270.0
+    },
+    "price" : 545,
+    "direction" : "up",
+    "speed" : 1,
+    "time" : 55,
+    "activeAtNight" : false,
+    "personSizeScale" : 10,
+    "inJeep" : false
+  } ],
+  "jeeps" : [ ],
+  "animals" : [ {
+    "type" : "Antelope",
+    "coordinate" : {
+      "x" : 1199.0,
+      "y" : 2053.0
+    },
+    "price" : 50,
+    "direction" : "down",
+    "actionLockCounter" : 20,
+    "speed" : 1,
+    "age" : 6,
+    "foodSupply" : 41,
+    "waterSupply" : 41,
+    "foodSources" : [ {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 960.0,
+        "y" : 2064.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 816.0,
+        "y" : 2112.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 912.0,
+        "y" : 1920.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 816.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1200.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 2016.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "drinkSources" : [ ],
+    "range" : 50,
+    "id" : 100,
+    "canGo" : true,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  }, {
+    "type" : "Giraffe",
+    "coordinate" : {
+      "x" : 1238.0,
+      "y" : 1954.0
+    },
+    "price" : 100,
+    "direction" : "left",
+    "actionLockCounter" : 27,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 43,
+    "waterSupply" : 43,
+    "foodSources" : [ {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1200.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 2016.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 1920.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1104.0,
+        "y" : 1728.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 1056.0,
+        "y" : 1632.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 1584.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 1536.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "drinkSources" : [ ],
+    "range" : 50,
+    "id" : 101,
+    "canGo" : false,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  }, {
+    "type" : "Giraffe",
+    "coordinate" : {
+      "x" : 873.0,
+      "y" : 1671.0
+    },
+    "price" : 100,
+    "direction" : "right",
+    "actionLockCounter" : 73,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 45,
+    "waterSupply" : 45,
+    "foodSources" : [ {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1200.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 912.0,
+        "y" : 1920.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1104.0,
+        "y" : 1728.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 1056.0,
+        "y" : 1632.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 864.0,
+        "y" : 1584.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 768.0,
+        "y" : 1632.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 720.0,
+        "y" : 1680.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "drinkSources" : [ ],
+    "range" : 50,
+    "id" : 101,
+    "canGo" : false,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  }, {
+    "type" : "Giraffe",
+    "coordinate" : {
+      "x" : 880.0,
+      "y" : 2083.0
+    },
+    "price" : 100,
+    "direction" : "up",
+    "actionLockCounter" : 55,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 46,
+    "waterSupply" : 96,
+    "foodSources" : [ {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 2016.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1200.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 1920.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 960.0,
+        "y" : 2064.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 912.0,
+        "y" : 1920.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 816.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 816.0,
+        "y" : 2112.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "drinkSources" : [ {
+      "@class" : "Items.Lake",
+      "id" : 2,
+      "price" : 400,
+      "coordinate" : {
+        "x" : 720.0,
+        "y" : 2064.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "range" : 50,
+    "id" : 101,
+    "canGo" : false,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  }, {
+    "type" : "Giraffe",
+    "coordinate" : {
+      "x" : 1265.0,
+      "y" : 1817.0
+    },
+    "price" : 100,
+    "direction" : "right",
+    "actionLockCounter" : 84,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 47,
+    "waterSupply" : 47,
+    "foodSources" : [ {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 960.0,
+        "y" : 2064.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1200.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 2016.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1104.0,
+        "y" : 1728.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1296.0,
+        "y" : 1776.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Tree",
+      "id" : 4,
+      "price" : 120,
+      "coordinate" : {
+        "x" : 1344.0,
+        "y" : 1776.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "drinkSources" : [ {
+      "@class" : "Items.Lake",
+      "id" : 2,
+      "price" : 400,
+      "coordinate" : {
+        "x" : 1296.0,
+        "y" : 1872.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "range" : 50,
+    "id" : 101,
+    "canGo" : true,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  }, {
+    "type" : "Lion",
+    "coordinate" : {
+      "x" : 1331.0,
+      "y" : 2313.0
+    },
+    "price" : 300,
+    "direction" : "right",
+    "actionLockCounter" : 78,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 50,
+    "waterSupply" : 50,
+    "foodSources" : [ {
+      "@class" : "MovingEntity.Giraffe",
+      "coordinate" : {
+        "x" : 1265.0,
+        "y" : 1817.0
+      },
+      "price" : 100,
+      "direction" : "right",
+      "actionLockCounter" : 84,
+      "speed" : 1,
+      "age" : 5,
+      "foodSupply" : 47,
+      "waterSupply" : 47,
+      "foodSources" : [ {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 960.0,
+          "y" : 2064.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1200.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 2016.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1104.0,
+          "y" : 1728.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1296.0,
+          "y" : 1776.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 1344.0,
+          "y" : 1776.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "drinkSources" : [ {
+        "@class" : "Items.Lake",
+        "id" : 2,
+        "price" : 400,
+        "coordinate" : {
+          "x" : 1296.0,
+          "y" : 1872.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "range" : 50,
+      "id" : 101,
+      "canGo" : true,
+      "animalSizeScale" : 10,
+      "hunger" : 40,
+      "thirst" : 60,
+      "fullFood" : 200,
+      "fullWater" : 100,
+      "hp" : 1
+    }, {
+      "@class" : "MovingEntity.Antelope",
+      "coordinate" : {
+        "x" : 1199.0,
+        "y" : 2054.0
+      },
+      "price" : 50,
+      "direction" : "down",
+      "actionLockCounter" : 21,
+      "speed" : 1,
+      "age" : 6,
+      "foodSupply" : 41,
+      "waterSupply" : 41,
+      "foodSources" : [ {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 960.0,
+          "y" : 2064.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 816.0,
+          "y" : 2112.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 912.0,
+          "y" : 1920.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 816.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1200.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 2016.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "drinkSources" : [ ],
+      "range" : 50,
+      "id" : 100,
+      "canGo" : true,
+      "animalSizeScale" : 10,
+      "hunger" : 40,
+      "thirst" : 60,
+      "fullFood" : 200,
+      "fullWater" : 100,
+      "hp" : 1
+    }, {
+      "@class" : "MovingEntity.Giraffe",
+      "coordinate" : {
+        "x" : 1237.0,
+        "y" : 1954.0
+      },
+      "price" : 100,
+      "direction" : "left",
+      "actionLockCounter" : 28,
+      "speed" : 1,
+      "age" : 5,
+      "foodSupply" : 43,
+      "waterSupply" : 43,
+      "foodSources" : [ {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1200.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 2016.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1920.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1104.0,
+          "y" : 1728.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 1056.0,
+          "y" : 1632.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1584.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1536.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "drinkSources" : [ ],
+      "range" : 50,
+      "id" : 101,
+      "canGo" : false,
+      "animalSizeScale" : 10,
+      "hunger" : 40,
+      "thirst" : 60,
+      "fullFood" : 200,
+      "fullWater" : 100,
+      "hp" : 1
+    }, {
+      "@class" : "MovingEntity.Giraffe",
+      "coordinate" : {
+        "x" : 874.0,
+        "y" : 1671.0
+      },
+      "price" : 100,
+      "direction" : "right",
+      "actionLockCounter" : 74,
+      "speed" : 1,
+      "age" : 5,
+      "foodSupply" : 45,
+      "waterSupply" : 45,
+      "foodSources" : [ {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1200.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 912.0,
+          "y" : 1920.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1104.0,
+          "y" : 1728.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 1056.0,
+          "y" : 1632.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 864.0,
+          "y" : 1584.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 768.0,
+          "y" : 1632.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 720.0,
+          "y" : 1680.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "drinkSources" : [ ],
+      "range" : 50,
+      "id" : 101,
+      "canGo" : false,
+      "animalSizeScale" : 10,
+      "hunger" : 40,
+      "thirst" : 60,
+      "fullFood" : 200,
+      "fullWater" : 100,
+      "hp" : 1
+    }, {
+      "@class" : "MovingEntity.Giraffe",
+      "coordinate" : {
+        "x" : 880.0,
+        "y" : 2082.0
+      },
+      "price" : 100,
+      "direction" : "up",
+      "actionLockCounter" : 56,
+      "speed" : 1,
+      "age" : 5,
+      "foodSupply" : 46,
+      "waterSupply" : 96,
+      "foodSources" : [ {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 2016.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1200.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1920.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 960.0,
+          "y" : 2064.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 912.0,
+          "y" : 1920.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 816.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 816.0,
+          "y" : 2112.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "drinkSources" : [ {
+        "@class" : "Items.Lake",
+        "id" : 2,
+        "price" : 400,
+        "coordinate" : {
+          "x" : 720.0,
+          "y" : 2064.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "range" : 50,
+      "id" : 101,
+      "canGo" : false,
+      "animalSizeScale" : 10,
+      "hunger" : 40,
+      "thirst" : 60,
+      "fullFood" : 200,
+      "fullWater" : 100,
+      "hp" : 1
+    } ],
+    "drinkSources" : [ ],
+    "range" : 50,
+    "id" : 104,
+    "canGo" : false,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  }, {
+    "type" : "Lion",
+    "coordinate" : {
+      "x" : 872.0,
+      "y" : 1928.0
+    },
+    "price" : 300,
+    "direction" : "right",
+    "actionLockCounter" : 35,
+    "speed" : 1,
+    "age" : 5,
+    "foodSupply" : 50,
+    "waterSupply" : 50,
+    "foodSources" : [ {
+      "@class" : "MovingEntity.Giraffe",
+      "coordinate" : {
+        "x" : 1237.0,
+        "y" : 1954.0
+      },
+      "price" : 100,
+      "direction" : "left",
+      "actionLockCounter" : 28,
+      "speed" : 1,
+      "age" : 5,
+      "foodSupply" : 43,
+      "waterSupply" : 43,
+      "foodSources" : [ {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1200.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 2016.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1920.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1104.0,
+          "y" : 1728.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 1056.0,
+          "y" : 1632.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1584.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1536.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "drinkSources" : [ ],
+      "range" : 50,
+      "id" : 101,
+      "canGo" : false,
+      "animalSizeScale" : 10,
+      "hunger" : 40,
+      "thirst" : 60,
+      "fullFood" : 200,
+      "fullWater" : 100,
+      "hp" : 1
+    }, {
+      "@class" : "MovingEntity.Giraffe",
+      "coordinate" : {
+        "x" : 874.0,
+        "y" : 1671.0
+      },
+      "price" : 100,
+      "direction" : "right",
+      "actionLockCounter" : 74,
+      "speed" : 1,
+      "age" : 5,
+      "foodSupply" : 45,
+      "waterSupply" : 45,
+      "foodSources" : [ {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1200.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 912.0,
+          "y" : 1920.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1104.0,
+          "y" : 1728.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 1056.0,
+          "y" : 1632.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 864.0,
+          "y" : 1584.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 768.0,
+          "y" : 1632.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 720.0,
+          "y" : 1680.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "drinkSources" : [ ],
+      "range" : 50,
+      "id" : 101,
+      "canGo" : false,
+      "animalSizeScale" : 10,
+      "hunger" : 40,
+      "thirst" : 60,
+      "fullFood" : 200,
+      "fullWater" : 100,
+      "hp" : 1
+    }, {
+      "@class" : "MovingEntity.Giraffe",
+      "coordinate" : {
+        "x" : 880.0,
+        "y" : 2082.0
+      },
+      "price" : 100,
+      "direction" : "up",
+      "actionLockCounter" : 56,
+      "speed" : 1,
+      "age" : 5,
+      "foodSupply" : 46,
+      "waterSupply" : 96,
+      "foodSources" : [ {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 2016.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1200.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1920.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 960.0,
+          "y" : 2064.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 912.0,
+          "y" : 1920.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 816.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 816.0,
+          "y" : 2112.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "drinkSources" : [ {
+        "@class" : "Items.Lake",
+        "id" : 2,
+        "price" : 400,
+        "coordinate" : {
+          "x" : 720.0,
+          "y" : 2064.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "range" : 50,
+      "id" : 101,
+      "canGo" : false,
+      "animalSizeScale" : 10,
+      "hunger" : 40,
+      "thirst" : 60,
+      "fullFood" : 200,
+      "fullWater" : 100,
+      "hp" : 1
+    }, {
+      "@class" : "MovingEntity.Giraffe",
+      "coordinate" : {
+        "x" : 1265.0,
+        "y" : 1818.0
+      },
+      "price" : 100,
+      "direction" : "down",
+      "actionLockCounter" : 84,
+      "speed" : 1,
+      "age" : 5,
+      "foodSupply" : 47,
+      "waterSupply" : 47,
+      "foodSources" : [ {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 960.0,
+          "y" : 2064.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1200.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 2016.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1104.0,
+          "y" : 1728.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1296.0,
+          "y" : 1776.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 1344.0,
+          "y" : 1776.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "drinkSources" : [ {
+        "@class" : "Items.Lake",
+        "id" : 2,
+        "price" : 400,
+        "coordinate" : {
+          "x" : 1296.0,
+          "y" : 1872.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "range" : 50,
+      "id" : 101,
+      "canGo" : true,
+      "animalSizeScale" : 10,
+      "hunger" : 40,
+      "thirst" : 60,
+      "fullFood" : 200,
+      "fullWater" : 100,
+      "hp" : 1
+    }, {
+      "@class" : "MovingEntity.Antelope",
+      "coordinate" : {
+        "x" : 1199.0,
+        "y" : 2054.0
+      },
+      "price" : 50,
+      "direction" : "down",
+      "actionLockCounter" : 21,
+      "speed" : 1,
+      "age" : 6,
+      "foodSupply" : 41,
+      "waterSupply" : 41,
+      "foodSources" : [ {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 960.0,
+          "y" : 2064.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 816.0,
+          "y" : 2112.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Tree",
+        "id" : 4,
+        "price" : 120,
+        "coordinate" : {
+          "x" : 912.0,
+          "y" : 1920.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 816.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Bush",
+        "id" : 3,
+        "price" : 100,
+        "coordinate" : {
+          "x" : 1200.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 2016.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      }, {
+        "@class" : "Items.Grass",
+        "id" : 1,
+        "price" : 80,
+        "coordinate" : {
+          "x" : 1248.0,
+          "y" : 1968.0
+        },
+        "hp" : 500,
+        "maxhp" : 500
+      } ],
+      "drinkSources" : [ ],
+      "range" : 50,
+      "id" : 100,
+      "canGo" : true,
+      "animalSizeScale" : 10,
+      "hunger" : 40,
+      "thirst" : 60,
+      "fullFood" : 200,
+      "fullWater" : 100,
+      "hp" : 1
+    } ],
+    "drinkSources" : [ ],
+    "range" : 50,
+    "id" : 104,
+    "canGo" : true,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  } ],
+  "rangers" : [ ],
+  "poacher" : null,
+  "roadPath" : [ {
+    "x" : 48.0,
+    "y" : 19.0
+  } ],
+  "lastRoad" : {
+    "x" : 48.0,
+    "y" : 19.0
+  },
+  "endRoad" : {
+    "x" : 48.0,
+    "y" : 29.0
+  }
+}

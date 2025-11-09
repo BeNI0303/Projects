@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "carId": 13,
+        "brand": "fsaf",
+        "model": "vdva",
+        "transmission": "Manual",
+        "passengers": 5,
+        "fromDate": "2024.10.10",
+        "toDate": "2024.10.26",
+        "image": "car_93066.jpg"
+    },
+    {
+        "id": 2,
+        "carId": 13,
+        "brand": "fsaf",
+        "model": "vdva",
+        "transmission": "Manual",
+        "passengers": 5,
+        "fromDate": "2024.12.10",
+        "toDate": "2024.12.28",
+        "image": "car_93066.jpg"
+    }
+]

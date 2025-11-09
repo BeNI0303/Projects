@@ -1,0 +1,9 @@
+.root p{
+    font-size: 1.3rem;
+}
+
+.selected{
+  background-color: #4caf50;
+  color: var(--text);
+  font-weight: bold;
+}

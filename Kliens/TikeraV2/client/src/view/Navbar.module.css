@@ -1,0 +1,41 @@
+
+.navbar {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  color: var(--text);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.right {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  background: none;
+  color: var(--text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  color: #4caf50;
+}

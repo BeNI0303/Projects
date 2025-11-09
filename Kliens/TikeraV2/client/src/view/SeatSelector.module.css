@@ -1,0 +1,9 @@
+.szek{
+    width: 2.5rem;
+    border: 0;
+    box-shadow: none;
+}
+
+.rowNumber{
+    color: var(--text);
+}

@@ -1,0 +1,101 @@
+[
+    {
+        "id": 2,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": 5,
+        "daily_price_huf": 16250,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    {
+        "id": 3,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": 5,
+        "daily_price_huf": 16250,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    {
+        "id": 5,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": 5,
+        "daily_price_huf": 16250,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    {
+        "id": 6,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": 5,
+        "daily_price_huf": 16250,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    {
+        "id": 7,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": 5,
+        "daily_price_huf": 16250,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    {
+        "id": 9,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": 5,
+        "daily_price_huf": 10,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    {
+        "id": 10,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": 7,
+        "daily_price_huf": 10,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    {
+        "id": 12,
+        "brand": "fsaf",
+        "model": "gsagas",
+        "year": 1992,
+        "transmission": "Automatic",
+        "fuel_type": "Hybrid",
+        "passengers": 1,
+        "daily_price_huf": 100000000,
+        "image": "https:\\\/\\\/media.ed.edmunds-media.com\\\/honda\\\/civic\\\/2019\\\/oem\\\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    {
+        "id": 13,
+        "brand": "fsaf",
+        "model": "vdva",
+        "year": 2000,
+        "transmission": "Manual",
+        "fuel_type": "Diesel",
+        "passengers": 5,
+        "daily_price_huf": 30000000000,
+        "image": "car_93066.jpg"
+    }
+]

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/print.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="../JS/script.js"></script>
+    <title>Muay Thai világa - Technikák</title>
+</head>
+<body>
+    <header>
+        <nav class="rejtett">
+            <a href="#technikak" class="rejtett">Navbar kihagyása</a>
+        </nav>
+        <nav class="navbar  navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto mt-2">
+                        <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Kezdőlap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tortenet.html">Története</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="./technikak.html">Technikák</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./kapcsolat.html">Kapcsolat</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-check form-switch">
+                    <label class="form-check-label" for="gyengenlato">Gyengénlátó</label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="gyengenlato" onclick="check()">
+                </div>
+            </div>
+        </nav>
+        <nav class="rejtett">
+            <h2>Ugrás az oldalon</h2>
+            <a href="#egyenes" class="rejtett">Ugrás az egyenes ütésre</a>
+            <a href="#kereszt" class="rejtett">Ugrás a kereszt ütésre</a>
+            <a href="#horog" class="rejtett">Ugrás a horogütésre</a>
+            <a href="#felut" class="rejtett">Ugrás a felütésre</a>
+            <a href="#egyenesr" class="rejtett">Ugrás az egyenes rúgásra</a>
+            <a href="#körives" class="rejtett">Ugrás a köríves rúgásra</a>
+            <a href="#taposo" class="rejtett">Ugrás a taposó rúgásra</a>
+            <a href="#terdes" class="rejtett">Ugrás a térdelésre</a>
+        </nav>
+    </header>
+    <main id="technikak">
+        <div class="with-blur-backdrop">
+            <div class="container mt-3">
+                <h1>Muay Thai technikák</h1>
+                <table class="table table-bordered text-center">
+                    <caption>
+                        <details>
+                            <summary>Súgó</summary>
+                            <p>A táblázat a Muay Thai fő/alap technikáit tartalmazza videós bemutatással és leírással</p>
+                        </details>
+                    </caption>
+                    <tr>
+                        <th>Technika</th>
+                        <th>Leírás</th>
+                        <th>Videó</th>
+                    </tr>
+                    <tr><td colspan="3">Ütések</td></tr>
+                    <tr id="egyenes">
+                        <td><p><b><span lang="en">Jab</span> (Egyenes ütés)</b></p></td>
+                        <td>
+                            <p>
+                                Az alapvető ütés, melyet
+                                az ellenfél támadásának
+                                vagy a támadás
+                                kezdeményezésének
+                                szándékával használnak. A
+                                <span lang="en">jab</span> egy <b><cite>gyors, rövid ütés</cite></b>
+                                az ellenfél arcára vagy
+                                testére. Az <b><cite>első kezünkkel</cite></b>
+                                végezzük
+                            </p>
+                            <aside>
+                                <h5>Első kéz</h5>
+                                <p>Az első kéz az alapállástól függöen picit előrébb elhelyezkedett általában bal kéz.</p>
+                            </aside>
+                        </td>
+                        <td class="vid">
+                            <video poster="../IMG/JAB.png" src="../VIDEO/Jab.mp4" controls></video>
+                            <p><a href="../HTML/Jab.html">Az egyenes ütést bemutató videó leírása</a></p>
+                        </td>
+                    </tr>
+                    <tr id="kereszt">
+                        <td><p><b><span lang="en">Cross</span> (Kereszt ütés)</b></p></td>
+                        <td>
+                            <p>A <span lang="en">jab</span> után következik, és
+                                erőteljes ütés az ellenfél
+                                <b><cite>szemébe vagy oldalára</cite></b>.
+                                Általában a második ütés
+                                a kombinációkban. A
+                                <b><cite>hátsó kezünkkel
+                                    végezzük</cite></b>.</p>
+                            <aside>
+                                <h5>Hátsó kéz</h5>
+                                <p>Az hátsó kéz az alapállástól függöen hátrébb elhelyezkedett domináns kéz.</p>
+                            </aside>
+                        </td>
+                        <td class="vid">
+                            <video poster="../IMG/CROSS.png" src="../VIDEO/Cross.mp4" controls></video>
+                            <p><a href="../HTML/Cross.html">A kereszt ütést bemutató videó leírása</a></p>
+                        </td>
+                    </tr>
+                    <tr id="horog">
+                        <td><p><b><span lang="en">Hook</span> (Horogütés)</b></p></td>
+                        <td>
+                            <p>Oldalra irányuló ütés,
+                                amelyet a kar oldalának
+                                forgatásával hoznak létre.
+                                A horgok lehetnek
+                                <b><cite>testhez közeli vagy
+                                    fejmagas</cite></b>, és hatékonyak a
+                                támadó vagy a védekező
+                                ellenfél ellen.</p>
+                        </td>
+                        <td class="vid">
+                            <video poster="../IMG/HOOK.png" src="../VIDEO/Hook.mp4" controls></video>
+                            <p><a href="../HTML/Hook.html">A horog ütést bemutató videó leírása</a></p>
+                        </td>
+                    </tr>
+                    <tr id="felut">
+                        <td><p><b><span lang="en">Uppercut</span> (Felütés)</b></p></td>
+                        <td>
+                            <p>Az ellenfél alsó
+                                <b><cite>állcsontjára vagy testére
+                                    irányuló ütés</cite></b>. A felülről
+                                lefelé irányuló mozgásból
+                                ered, és nagy erejű
+                                ütésként szolgál.</p>
+                        </td>
+                        <td class="vid">
+                            <video poster="../IMG/UPPERCUT.png" src="../VIDEO/Uppercut.mp4" controls></video>
+                            <p><a href="../HTML/Uppercut.html">A felütést bemutató videó leírása</a></p>
+                        </td>
+                    </tr>
+                    <tr><td colspan="3">Rúgások</td></tr>
+                    <tr id="egyenesr">
+                        <td><p><b><span lang="en">Front Kick</span> (Egyenes rúgás)</b></p></td>
+                        <td>
+                            <p>Egyenesen előre irányuló
+                                lábrúgás, amelyet a láb
+                                felemelésével és
+                                elnyújtásával hajtanak
+                                végre. A <span lang="en">front kick</span> a
+                                támadás, a <b><cite>távolságtartás
+                                    és a terület védelme</cite></b>
+                                céljából is használatos.</p>
+                        </td>
+                        <td class="vid">
+                            <video poster="../IMG/FRONTKICK.png" src="../VIDEO/FrontKick.mp4" controls></video>
+                            <p><a href="../HTML/Front_Kick.html">Az egyenes rúgást bemutató videó leírása</a></p>
+                        </td>
+                    </tr>
+                    <tr id="körives">
+                        <td><p><b><span lang="en">Roundhouse kick</span> (Köríves rúgás)</b></p></td>
+                        <td>
+                            <p>A Muay Thai egyik
+                                legismertebb és
+                                leggyakoribb
+                                rúgástechnikája. A láb
+                                körkörös mozgása révén
+                                nagy erejű rúgást lehet
+                                kiosztani az <b><cite>ellenfél oldalára, combjára vagy
+                                    testére</cite></b>.</p>
+                        </td>
+                        <td class="vid">
+                            <video poster="../IMG/ROUNDKICK.png" src="../VIDEO/Roundhouse.mp4" controls></video>
+                            <p><a href="../HTML/Roundhouse_Kick.html">A köríves rúgást bemutató videó leírása</a></p>
+                        </td>
+                    </tr>
+                    <tr id="taposo">
+                        <td><p><b><span lang="en">Teep</span> (Taposó rúgás)</b></p></td>
+                        <td>
+                            <p>Egy előre irányuló
+                                lábrúgás, amelyet a
+                                támadó ellenfél
+                                <b><cite> visszalökésére vagy távol
+                                    tartására használnak</cite></b>. A
+                                <span lang="en">teep</span> hatékony védekezési
+                                és támadási módszer is
+                                egyben.</p>
+                        </td>
+                        <td class="vid">
+                            <video poster="../IMG/TEEP.png" src="../VIDEO/Teep.mp4" controls></video>
+                            <p><a href="../HTML/Teep.html">A taposó rúgást bemutató videó leírása</a></p>
+                        </td>
+                    </tr>
+                    <tr id="terdes">
+                        <td><p><b><span lang="en">Knee strike</span> (Térdelés)</b></p></td>
+                        <td>
+                            <p>Az egyik <b><cite>leghatékonyabb
+                                Muay Thai technika</cite></b>,
+                                amely a térd erejét és
+                                mozgékonyságát
+                                használja ki. A térdelés lehet a test különböző
+                                részeire irányuló támadás
+                                vagy védekezés.</p>
+                        </td>
+                        <td class="vid">
+                            <video poster="../IMG/KNEE.png" src="../VIDEO/KneeStrike.mp4" controls></video>
+                            <p><a href="../HTML/KneeStrike.html">A térdelést bemutató videó leírása</a></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav class="rejtett">
+            <a href="#endfooter">Footer kihagyása</a>
+        </nav>
+        <div class="with-blur-backdrop">
+            <div class="container">
+                <div class="row contact">
+                    <div class="col-sm text-center">
+                        <p>Készítette: Karászi Benjámin József NGT7K8</p>
+                    </div>
+                    <div class="col-sm text-center">
+                        <p>Email: kitalaltemail@gmail.com</p>
+                    </div>
+                    <div class="col-sm text-center">
+                        <p>Tel: 06 99 999 9999</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="endfooter" class="rejtett">Footer kihagyva</p>
+    </footer> 
+</body>
+
+</html>

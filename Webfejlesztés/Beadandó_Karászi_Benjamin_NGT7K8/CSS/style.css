@@ -1,0 +1,197 @@
+html, body{ 
+    background-image: url("../IMG/bg.jpg");
+    background-repeat: repeat;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.07em;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+nav{
+    width: 100%;
+    font-weight: bolder;
+}
+
+img{
+    width: 100%;
+}
+
+table{
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+th{
+    font-weight: bolder;
+}
+
+video{
+    width: 75%;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0.3em 0.3em 0.3em 0.3em rgb(155, 154, 154);
+    margin: auto;
+    margin-bottom: 4em;
+    max-width: 40em;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+form textarea{
+    margin-top: 0.5em;
+    padding: 0.5em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em rgb(124, 124, 124);
+    border-radius: 1em;
+    border: 0px;
+}
+
+form input[type=text]{
+    width: 70%;
+    margin-top: 0.5em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em rgb(124, 124, 124);
+}
+
+form input[type=email]{
+    width: 70%;
+    margin-top: 0.5em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em rgb(124, 124, 124);
+}
+
+form .buttons{
+    color: white;
+    text-align: right;
+}
+
+main{
+    min-height: 100%;
+    max-height: fit-content;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.51);
+    color: white;
+}
+
+footer .with-blur-backdrop{
+    padding: 0;
+    margin: 0;
+    padding-top: 0.02em;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: rgba(116, 0, 225, 0.767);
+}
+
+a:hover{
+    color: rgb(0, 0, 211);
+}
+
+nav a:link,nav a:visited{
+    color:grey;
+}
+
+.rejtett{
+	position: absolute; 
+    left:-99999px
+}
+
+.container{
+    width: 100%;
+}
+
+.ui{
+    font-size: 0.8em;
+}
+
+.himg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.pic{
+    margin:auto;
+    width: 40%;
+}
+
+.vid{
+    align-items: center;
+    display: block;
+    justify-content: center;
+}
+
+
+.form-group{
+    margin-bottom: 2em;
+}
+
+.btn{
+    color: white;
+    margin:0 1em ;
+    border: 1px solid black;
+    justify-content: right;
+}
+
+
+.with-blur-backdrop {
+    margin: 0;
+
+    background-repeat: repeat;
+
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.558);
+    
+    backdrop-filter: blur(5px);
+  
+    padding: 8.5em 0;
+
+}
+
+.index{
+    padding-top: 1em;
+}
+
+.contact{
+    margin-top: 5em;
+}
+
+caption{
+    color:white;
+}
+
+.carousel{
+    margin: auto;
+    margin-top: 3em;
+    width: 40%;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  video{
+    width: 100%;
+  }
+
+  .carousel{
+    width: 70%;
+  }
+
+}

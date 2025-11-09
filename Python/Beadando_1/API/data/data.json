@@ -1,0 +1,160 @@
+{
+    "Users": [
+        {
+            "id": 1,
+            "name": "Ban\u00e1nos Joe",
+            "email": "bjoe@redneckcity.com"
+        },
+        {
+            "id": 2,
+            "name": "Alm\u00e1s Anna",
+            "email": "anna@fruitworld.com"
+        },
+        {
+            "id": 3,
+            "name": "K\u00f6rt\u00e9s K\u00e1roly",
+            "email": "karoly@pearparadise.com"
+        },
+        {
+            "id": 4,
+            "name": "nev",
+            "email": "email"
+        },
+        {
+            "id": 32,
+            "name": "Senki",
+            "email": "user@example.com"
+        },
+        {
+            "id": 10,
+            "name": "string",
+            "email": "valami@op.com"
+        },
+        {
+            "id": 30,
+            "name": "string",
+            "email": "valami@op.com"
+        },
+        {
+            "id": 301,
+            "name": "string",
+            "email": "valami@op.com"
+        }
+    ],
+    "Baskets": [
+        {
+            "id": 101,
+            "user_id": 1,
+            "items": [
+                {
+                    "item_id": 201,
+                    "name": "Alma",
+                    "brand": "Jonat\u00e1n",
+                    "price": 9.99,
+                    "quantity": 2
+                },
+                {
+                    "item_id": 202,
+                    "name": "K\u00f6rte",
+                    "brand": "Vilmos",
+                    "price": 12.49,
+                    "quantity": 1
+                },
+                {
+                    "item_id": 203,
+                    "name": "alma",
+                    "brand": "birs",
+                    "price": 100.0,
+                    "quantity": 10
+                },
+                {
+                    "item_id": 10000,
+                    "name": "string",
+                    "brand": "string",
+                    "price": 100.0,
+                    "quantity": 10
+                },
+                {
+                    "item_id": 10001,
+                    "name": "string",
+                    "brand": "string",
+                    "price": 100.0,
+                    "quantity": 10
+                },
+                {
+                    "item_id": 45,
+                    "name": "string",
+                    "brand": "string",
+                    "price": 89.0,
+                    "quantity": 98
+                },
+                {
+                    "item_id": 45,
+                    "name": "string",
+                    "brand": "string",
+                    "price": 89.0,
+                    "quantity": 98
+                },
+                {
+                    "item_id": 45,
+                    "name": "string",
+                    "brand": "string",
+                    "price": 89.0,
+                    "quantity": 98
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "user_id": 2,
+            "items": [
+                {
+                    "item_id": 203,
+                    "name": "Ban\u00e1n",
+                    "brand": "Chiquita",
+                    "price": 5.99,
+                    "quantity": 6
+                },
+                {
+                    "item_id": 204,
+                    "name": "Narancs",
+                    "brand": "Valencia",
+                    "price": 8.49,
+                    "quantity": 3
+                },
+                {
+                    "item_id": 1,
+                    "name": "string",
+                    "brand": "string",
+                    "price": 10.0,
+                    "quantity": 10
+                }
+            ]
+        },
+        {
+            "id": 103,
+            "user_id": 4,
+            "items": []
+        },
+        {
+            "id": 104,
+            "user_id": 1,
+            "items": []
+        },
+        {
+            "id": 105,
+            "user_id": 30,
+            "items": []
+        },
+        {
+            "id": 106,
+            "user_id": 30,
+            "items": []
+        },
+        {
+            "id": 107,
+            "user_id": 30,
+            "items": []
+        }
+    ]
+}

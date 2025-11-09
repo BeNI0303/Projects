@@ -1,0 +1,135 @@
+{
+  "balance" : 5105,
+  "rating" : 1.01,
+  "visitors" : [ {
+    "@class" : "MovingEntity.Visitor",
+    "coordinate" : {
+      "x" : 1181.0,
+      "y" : 2327.0
+    },
+    "price" : 500,
+    "direction" : "right",
+    "speed" : 1,
+    "time" : 47,
+    "activeAtNight" : false,
+    "personSizeScale" : 10,
+    "inJeep" : false
+  }, {
+    "@class" : "MovingEntity.Visitor",
+    "coordinate" : {
+      "x" : 1181.0,
+      "y" : 2327.0
+    },
+    "price" : 505,
+    "direction" : "up",
+    "speed" : 1,
+    "time" : 55,
+    "activeAtNight" : false,
+    "personSizeScale" : 10,
+    "inJeep" : false
+  } ],
+  "jeeps" : [ ],
+  "animals" : [ {
+    "type" : "Giraffe",
+    "coordinate" : {
+      "x" : 1398.0,
+      "y" : 2074.0
+    },
+    "price" : 100,
+    "direction" : "right",
+    "actionLockCounter" : 38,
+    "speed" : 1,
+    "age" : 1,
+    "foodSupply" : 86,
+    "waterSupply" : 86,
+    "foodSources" : [ {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 960.0,
+        "y" : 2064.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1200.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 2016.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Grass",
+      "id" : 1,
+      "price" : 80,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 1968.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    }, {
+      "@class" : "Items.Bush",
+      "id" : 3,
+      "price" : 100,
+      "coordinate" : {
+        "x" : 1248.0,
+        "y" : 1920.0
+      },
+      "hp" : 500,
+      "maxhp" : 500
+    } ],
+    "drinkSources" : [ ],
+    "range" : 50,
+    "id" : 101,
+    "canGo" : true,
+    "animalSizeScale" : 10,
+    "hunger" : 40,
+    "thirst" : 60,
+    "fullFood" : 200,
+    "fullWater" : 100,
+    "hp" : 1
+  } ],
+  "rangers" : [ {
+    "@class" : "MovingEntity.Ranger",
+    "coordinate" : {
+      "x" : 1181.0,
+      "y" : 1906.0
+    },
+    "price" : 800,
+    "direction" : "up",
+    "speed" : 1,
+    "time" : 10,
+    "personSizeScale" : 10,
+    "target" : null,
+    "activeAtNight" : true,
+    "isSelected" : false
+  } ],
+  "poacher" : null,
+  "roadPath" : [ {
+    "x" : 48.0,
+    "y" : 19.0
+  } ],
+  "lastRoad" : {
+    "x" : 48.0,
+    "y" : 19.0
+  },
+  "endRoad" : {
+    "x" : 48.0,
+    "y" : 29.0
+  }
+}
